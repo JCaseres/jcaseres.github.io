@@ -75,6 +75,11 @@ nav li {
     width: 80px;
 }
 
+nav a {
+    color: #EAEBEB;
+    text-decoration: none;
+}
+
 /* About Me Banner */
 
 .about-me {
@@ -124,12 +129,13 @@ nav li {
 
 .education-section-title {
     position: relative;
-    top: 6em;
+    top: 4em;
     display: flex;
     justify-content: center;
     align-content: center;
     align-items: center;
     color: #163D57 !important;
+    font-size: 1.5em;
 }
 
 .Education {
@@ -169,12 +175,13 @@ nav li {
 
 .projects-section-title {
     position: relative;
-    top: 6em;
+    top: 4em;
     display: flex;
     justify-content: center;
     align-content: center;
     align-items: center;
     color: #163D57 !important;
+    font-size: 1.5em;
 }
 
 .line {
@@ -353,6 +360,21 @@ nav li {
     align-items: center;
     border-radius: 4em;
 }
+
+/* Media Queries */
+
+@media only screen and (max-width: 480px) {
+    #navbar {
+        width: 270px;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px), (orientation: portrait) {
+    .project-1-images {
+        width: 95%;
+    }
+}
+
 
 /* Footer */
 
