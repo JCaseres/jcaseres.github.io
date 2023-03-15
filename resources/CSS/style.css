@@ -80,6 +80,13 @@ nav a {
     text-decoration: none;
 }
 
+a {
+    color: #EAEBEB;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+}
+
 /* About Me Banner */
 
 .about-me {
