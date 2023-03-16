@@ -87,6 +87,10 @@ a {
     font-weight: bold;
 }
 
+a:hover {
+    color: #797C93;
+}
+
 /* About Me Banner */
 
 .about-me {
