@@ -10,13 +10,13 @@
 </head>
 <body>
     
+    <div id="scroll-top"></div>
     <nav id="navbar">
-        <h1>Jefferson Caseres</h1>
+        <a href="#scroll-top"><h1>Jefferson Caseres</h1></a>
         <ul>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">Education</a></li>
-            <li><a href="/contact.html">Hire Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="/contact.html" target="_blank">Contact</a></li>
         </ul>
     </nav>
 
@@ -25,12 +25,11 @@
     <section class="about-me drop-shadow">
         <div class="about-me-text">
             <img src="resources/images/JeffC.png" alt="Image of Jefferson" width="200px" height="auto" class="about-me-image">
-            <p>Hello, my name is Jefferson Caseres and I am a Front-End engineer whose primary objective is creating beautiful, functional, fast, and reliable websites. 
-            With my experience in front-end development and my great problem-solving skills, 
-            I have worked with great companies like KPMG, Encora Technologies 1800flowers, Equitas Brokerage Group, and Torino Maintenance. 
-            I pride myself on creating simple, accessible websites that have high functionality and a great front-end user experience for visitors to instantly feel comfortable browsing. I look forward to working with you!</p>
+            <p>Hello, my name is Jefferson Caseres, and I am a Front-End engineer whose primary objective is creating beautiful, functional, fast, and reliable websites. With my front-end development experience and excellent problem-solving skills, I have worked with great companies like KPMG, Encora Technologies 1800flowers, Equitas Brokerage Group, and Torino Maintenance. I pride myself on creating simple, accessible websites with high functionality and an excellent front-end user experience for visitors to feel comfortable browsing instantly.
+            <br>
+            I look forward to working with you!</p>
         </div>
-        <div class="skills">
+        <div class="skills" id="education">
             <img src="resources/images/logo_html.png" alt="Image of HTML logo" width="80px" height="100px">
             <img src="resources/images/CSS-Logo.png" alt="Image of CSS logo" width="80px" height="100px">
             <img src="resources/images/JavaScript_Logo.png" alt="Image of JS logo" width="80px" height="80px">
@@ -55,20 +54,12 @@
         <div class="Devry-University">
             <img src="resources/images/DeVry-University-round-logo.jpg" alt="Image of DeVry University logo" width="70px" height="70px">
             <h2>DeVry University</h2>
-            <p>I attended DeVry University in 2011, two months after I graduated high school. 
-            I received my bachelor's degree for Multimedia Design and Development where I learned Web and Graphic Design. In those four years, 
-            I quickly fell in love with coding, and I knew it was something I really wanted to do because I understood everything 
-            I learned when it came to coding and development.</p>
+            <p>I attended DeVry University in 2011, two months after I graduated high school. Four years later, I received my bachelor's degree in Multimedia Design and Development, where I learned Web and Graphic Design. In those four years, I quickly fell in love with coding. I knew it was something I wanted my career to be because I quickly understood the concept of coding, and problem-solving feels excellent when you figure everything out.</p>
         </div>
         <div class="code-cademy">
             <img src="resources/images/cclogo.jpeg" alt="Image of DeVry University logo" width="70px" height="70px">
             <h2>CodeCademy</h2>
-            <p>I appreciate and am thankful of all the knowledge that I gained in my 4 years at DeVry University. 
-            It taught me everything needed to build a reliable, and responsive website from the ground up, 
-            but because technology moves so fast today, I have to keep up with new language and software somehow. 
-            Introducing CodeCademy. This is where I learned what I was missing to become a Front End Engineer. 
-            I love creating websites but incorporating websites along with other tech like React, Ai, 
-            and Algorithms opens up to many more ideas.</p>
+            <p id="projects">I appreciate and am thankful for all the knowledge I gained in my four years at DeVry University. It taught me everything I needed to build a reliable and responsive website from the ground up. Still, because technology moves so fast today, I have to keep up with new languages and software somehow. I then found Codecademy. With their help, I learned what I was missing to become a Front End Engineer. I love creating websites, whereas incorporating sites with other techs like React, Ai, and Algorithms opens up many more ideas.</p>
         </div>
     </section>
     
@@ -87,7 +78,7 @@
             <h1>React Inspirational App</h1>
         </div>
         <div class="project-1-tech">
-            <h3>Tech<br>Used:</h3>
+            <h3>Tech Used:</h3>
             <img src="resources/images/logo_html.png" alt="HTML Logo" width="30px" height="auto">
             <img src="resources/images/CSS-Logo.png" alt="CSS Logo" width="30px" height="auto">
             <img src="resources/images/JavaScript_Logo.png" alt="JavaScript Logo" width="30px" height="auto">
@@ -112,7 +103,7 @@
             <h1>Janitorial Business</h1>
         </div>
         <div class="project-2-tech">
-            <h3>Tech<br>Used:</h3>
+            <h3>Tech Used:</h3>
             <img src="resources/images/logo_html.png" alt="HTML Logo" width="30px" height="auto">
             <img src="resources/images/CSS-Logo.png" alt="CSS Logo" width="30px" height="auto">
             <img src="resources/images/JavaScript_Logo.png" alt="JavaScript Logo" width="30px" height="auto">
@@ -137,7 +128,7 @@
             <h1>Brokerage Group Website</h1>
         </div>
         <div class="project-3-tech">
-            <h3>Tech<br>Used:</h3>
+            <h3>Tech Used:</h3>
             <img src="resources/images/logo_html.png" alt="HTML Logo" width="30px" height="auto">
             <img src="resources/images/CSS-Logo.png" alt="CSS Logo" width="30px" height="auto">
             <img src="resources/images/JavaScript_Logo.png" alt="JavaScript Logo" width="30px" height="auto">
@@ -157,7 +148,14 @@
     </section>
 
     <footer>
-        <h1>This is the Footer</h1>
+        <div>
+            <a href="https://www.linkedin.com/in/jeffcaseres/" target="_blank"><img src="resources/images/linkedin_logo.png" alt="Linked In Profile" width="40px" height="auto"></a>
+            <a href="https://github.com/JCaseres" target="_blank"><img src="resources/images/GitHub_logo_white.png" alt="GitHub Profile" width="40px" height="auto"></a>
+            <a href="https://jcaseres.github.io/resume/" target="_blank"><img src="resources/images/doc_icon.png" alt="Resume" width="40px" height="auto"></a>
+        </div>
+        <div>
+            <a href="#scroll-top"><img src="resources/images/arrow-icon-1156.png" alt="CSS Logo" width="30px" height="auto"></a>
+        </div>
     </footer>
 
 </body>
