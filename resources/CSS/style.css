@@ -395,13 +395,8 @@ a:hover {
     nav ul {
         margin: 0px;
         padding: 0.7em;
-    }
-}
-
-@media only screen and (max-width: 480px) {
-    nav li {
-        display: inline-block;
-        width: 7.4em;
+        display: flex;
+        justify-content: space-evenly;
     }
 }
 
