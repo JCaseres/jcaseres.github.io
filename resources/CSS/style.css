@@ -159,7 +159,6 @@ a:hover {
     align-items: center;
     justify-content: space-evenly;
     border-radius: 5em;
-    
 }
 
 .education-title {
@@ -383,7 +382,57 @@ a:hover {
 
 /* Media Queries */
 
+@media only screen and (max-width: 480px) {
+    .about-me {
+      display: flex;
+      flex-wrap: wrap;
+      position: relative;
+      top: 7em;
+    }
+}
 
+@media only screen and (max-width: 480px) {
+    .about-me-text {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 1em;
+      text-align: center;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .skills {
+        margin: 1em;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .shtml, .scss, .sjs, .sreact, .svs, .sgit, .shub {
+        width: 40px;
+        height: 50px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .sjs, .sreact, .svs, .sgit, .shub {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .Education {
+      display: flex;
+      flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .devry-p {
+      
+    }
+}
 
 /* Footer */
 
