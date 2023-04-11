@@ -254,7 +254,6 @@ a:hover {
     grid-column: 6 / 6;
     grid-row: 1 / 1;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
     border-radius: 4em;
@@ -444,6 +443,111 @@ a:hover {
     .Education {
       display: flex;
       flex-wrap: wrap;
+    }
+}
+
+/* Phone media quiries */
+
+@media only screen and (max-width: 480px) {
+    .project-1-title {
+        grid-column: 1 / 7;
+        grid-row: 1;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .project-1-tech {
+        grid-column: 1 / 7;
+        grid-row: 2;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .project-1-info {
+        grid-column: 1 / 7;
+        grid-row: 3;
+        border-radius: 4em;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .project-1-images {
+        grid-column: 1 / 7;
+        grid-row: 4;
+        border-radius: 4em;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .project-2-title {
+        grid-column: 1 / 7;
+        grid-row: 1;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .project-2-tech {
+        grid-column: 1 / 7;
+        grid-row: 2;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .project-2-info {
+        grid-column: 1 / 7;
+        grid-row: 3;
+        border-radius: 4em;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .project-2-images {
+        grid-column: 1 / 7;
+        grid-row: 4;
+        border-radius: 4em;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #pi2-1, #pi2-2 {
+        width: 160px;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .project-3-title {
+        grid-column: 1 / 7;
+        grid-row: 1;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .project-3-tech {
+        grid-column: 1 / 7;
+        grid-row: 2;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .project-3-info {
+        grid-column: 1 / 7;
+        grid-row: 3;
+        border-radius: 4em;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .project-3-images {
+        grid-column: 1 / 7;
+        grid-row: 4;
+        border-radius: 4em;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #pi3-3, #pi2-3, #pi2-4 {
+        display: none;
     }
 }
 
