@@ -379,7 +379,7 @@ a:hover {
     border-radius: 4em;
 }
 
-/* Media Queries */
+/* Phone Media Queries */
 
 @media only screen and (max-width: 480px) {
     nav {
@@ -399,7 +399,7 @@ a:hover {
     }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 1024px) {
     .about-me {
       display: flex;
       flex-wrap: wrap;
@@ -408,7 +408,7 @@ a:hover {
     }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 1024px) {
     .about-me-text {
       display: flex;
       flex-wrap: wrap;
@@ -418,7 +418,7 @@ a:hover {
     }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 1024px) {
     .skills {
         margin: 1em;
         border-radius: 4em;
@@ -445,8 +445,6 @@ a:hover {
       flex-wrap: wrap;
     }
 }
-
-/* Phone media quiries */
 
 @media only screen and (max-width: 480px) {
     .project-1-title {
@@ -547,6 +545,27 @@ a:hover {
 
 @media only screen and (max-width: 480px) {
     #pi3-3, #pi2-3, #pi2-4 {
+        display: none;
+    }
+}
+
+/* Tablet media queries */
+
+@media only screen and (max-width: 1024px) {
+    .project-1-tech, .project-2-tech, .project-3-tech {
+        width: 20em;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    #pi1, #pi2, #pi2-1, #pi2-2, #pi3-1, #pi3-2 {
+        width: 248px;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    #pi2-4, #pi2-3, #pi3-3  {
         display: none;
     }
 }
