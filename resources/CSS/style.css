@@ -379,6 +379,64 @@ a:hover {
     border-radius: 4em;
 }
 
+.project-4 {
+    position: relative;
+    top: 6em;
+    margin: 1em;
+    padding: 1em 1em 1em 1em;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1em 0em;
+    border: solid;
+    border-color: #163D57;
+    background-color: #EAEBEB;
+    border-top-left-radius: 5em;
+    border-bottom-left-radius: 5em;
+    border-bottom-right-radius: 5em;
+}
+
+.project-4-title {
+    grid-column: 1 / 5;
+    grid-row: 1;
+    color: #163D57 !important;
+    padding-left: 1.5em;
+}
+
+.project-4-info {
+    background-color: #163D57;
+    padding: 2em;
+    grid-column: 1 / 4;
+    grid-row: 2 / 2;
+    border-bottom-left-radius: 4em;
+    border-top-left-radius: 4em;
+}
+
+.project-4-images {
+    border: solid;
+    border-color: #163D57;
+    background-color: #EAEBEB;
+    padding: 2em;
+    grid-column: 4 / 7;
+    grid-row: 2 / 2;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border-top-right-radius: 4em;
+    border-bottom-right-radius: 4em;
+    gap: 1em;
+}
+
+.project-4-tech {
+    padding: 0.5em;
+    background-color: #163D57;
+    grid-column: 6 / 6;
+    grid-row: 1 / 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 4em;
+}
+
 /* Phone Media Queries */
 
 @media only screen and (max-width: 480px) {
@@ -388,9 +446,7 @@ a:hover {
         justify-content: center;
         font-size: 0.9em;
     }
-}
 
-@media only screen and (max-width: 480px) {
     nav ul {
         margin: 0px;
         padding: 0.7em;
@@ -406,19 +462,15 @@ a:hover {
       position: relative;
       top: 7em;
     }
-}
 
-@media only screen and (max-width: 1024px) {
     .about-me-text {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      padding: 1em;
-      text-align: center;
-    }
-}
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 1em;
+        text-align: center;
+      }
 
-@media only screen and (max-width: 1024px) {
     .skills {
         margin: 1em;
         border-radius: 4em;
@@ -430,45 +482,37 @@ a:hover {
         width: 40px;
         height: 50px;
     }
-}
 
-@media only screen and (max-width: 480px) {
     .sjs, .sreact, .svs, .sgit, .shub {
         width: 50px;
         height: 50px;
     }
-}
 
-@media only screen and (max-width: 480px) {
     .Education {
-      display: flex;
-      flex-wrap: wrap;
+        display: flex;
+        flex-wrap: wrap;
     }
 }
+
+/* Project One  */
 
 @media only screen and (max-width: 480px) {
     .project-1-title {
         grid-column: 1 / 7;
         grid-row: 1;
     }
-}
 
-@media only screen and (max-width: 480px) {
     .project-1-tech {
         grid-column: 1 / 7;
         grid-row: 2;
     }
-}
 
-@media only screen and (max-width: 480px) {
     .project-1-info {
         grid-column: 1 / 7;
         grid-row: 3;
         border-radius: 4em;
     }
-}
 
-@media only screen and (max-width: 480px) {
     .project-1-images {
         grid-column: 1 / 7;
         grid-row: 4;
@@ -476,76 +520,99 @@ a:hover {
     }
 }
 
+/* Project Two */
+
 @media only screen and (max-width: 480px) {
     .project-2-title {
         grid-column: 1 / 7;
         grid-row: 1;
     }
-}
 
-@media only screen and (max-width: 480px) {
     .project-2-tech {
         grid-column: 1 / 7;
         grid-row: 2;
     }
-}
 
-@media only screen and (max-width: 480px) {
     .project-2-info {
         grid-column: 1 / 7;
         grid-row: 3;
         border-radius: 4em;
     }
-}
 
-@media only screen and (max-width: 480px) {
     .project-2-images {
         grid-column: 1 / 7;
         grid-row: 4;
         border-radius: 4em;
     }
-}
 
-@media only screen and (max-width: 480px) {
     #pi2-1, #pi2-2 {
         width: 160px;
         height: auto;
     }
+
+    #pi2-3, #pi2-4 {
+        display: none;
+    }
 }
+
+/* Project Three */
 
 @media only screen and (max-width: 480px) {
     .project-3-title {
         grid-column: 1 / 7;
         grid-row: 1;
     }
-}
 
-@media only screen and (max-width: 480px) {
     .project-3-tech {
         grid-column: 1 / 7;
         grid-row: 2;
     }
-}
 
-@media only screen and (max-width: 480px) {
     .project-3-info {
         grid-column: 1 / 7;
         grid-row: 3;
         border-radius: 4em;
     }
-}
 
-@media only screen and (max-width: 480px) {
     .project-3-images {
         grid-column: 1 / 7;
         grid-row: 4;
         border-radius: 4em;
     }
+
+    #pi3-3 {
+        display: none;
+    }
 }
 
+/* Project Four */
+
 @media only screen and (max-width: 480px) {
-    #pi3-3, #pi2-3, #pi2-4 {
-        display: none;
+    .project-4-title {
+        grid-column: 1 / 7;
+        grid-row: 1;
+    }
+
+    .project-4-tech {
+        grid-column: 1 / 7;
+        grid-row: 2;
+    }
+
+    .project-4-info {
+        grid-column: 1 / 7;
+        grid-row: 3;
+        border-radius: 4em;
+    }
+
+    .project-4-images {
+        grid-column: 1 / 7;
+        grid-row: 4;
+        border-radius: 4em;
+    }
+
+    #pi4-2, #pi4-3, #pi4-4 {
+        width: 300px;
+        height: auto;
     }
 }
 
